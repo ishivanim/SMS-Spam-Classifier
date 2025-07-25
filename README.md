@@ -47,15 +47,13 @@ Each step was modularized into separate Python functions for maintainability.
 ## 🖥️ How to Run the Project Locally
 
 ### 1. Clone the repository:
+### 2. Install dependencies:
 
-```bash
-git clone https://github.com/yourusername/sms-spam-classifier.git
-cd sms-spam-classifier
+    pip install streamlit scikit-learn nltk
+    streamlit run app.py
 
-###  Install dependencies:
+## Author
+Shivani Lange
 
-pip install streamlit scikit-learn nltk
-streamlit run app.py
-
-## Feel free to fork this repo, improve the model or UI, and make pull requests!
-## This is a open source code
+## License
+This project is open-source and available for reuse.
